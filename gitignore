@@ -1,0 +1,8 @@
+
+# Ignorar archivos temporales de editor
+*.swp
+*.bak
+*.tmp
+
+# Ignorar archivos de sistema de Mac
+.DS_Store
