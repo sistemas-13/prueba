@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te quiero mucho</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccb;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            background: linear-gradient(to bottom right, #ff7f7f, #ff4d4d);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .heart {
+            font-size: 150px;
+            animation: pulse 1.5s infinite;
+        }
+        .message {
+            font-size: 36px;
+            margin-top: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .sub-message {
+            font-size: 20px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <div class="message">Te quiero mucho</div>
+        <div class="sub-message">Siempre estarás en mi corazón</div>
+    </div>
+</body>
+</html>
